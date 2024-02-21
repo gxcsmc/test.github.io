@@ -1,0 +1,45 @@
+.playerui-container {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  opacity: 1;
+  position: relative;
+  box-shadow: 5px 5px 10px 0px #595959;
+  transition: 0.3s;
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: center;
+  background-color: #555555;
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+}
+.playerui-container:focus {
+  opacity: 0;
+}
+
+.playerui-image {
+  top: 50px;
+  left: 135px;
+  width: 132px;
+  height: 261px;
+  position: absolute;
+  object-fit: cover;
+}
+.playerui-text {
+  left: 115px;
+  color: #ffffff;
+  bottom: 40px;
+  position: absolute;
+  font-size: 30px;
+  font-family: "Montserrat-Bold";
+}
+.playerui-text1 {
+  top: 30px;
+  left: 155px;
+  color: #ffffff;
+  position: absolute;
+  font-size: 20px;
+  font-family: "Montserrat-Bold";
+}
